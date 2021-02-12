@@ -7,7 +7,7 @@ Number of countries Playtech has offices,
 Global licensees
 
 For corssbrowser we can support initialize browser details in Runner class using @beforeclass and which browser we want to run we can give it in runner class
-
+or we can use desiredcapability for cross browser testing if we plan to use Browserstack or perfecto.
 
 @BeforeClass
 public static void before() {   
