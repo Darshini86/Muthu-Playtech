@@ -1,13 +1,17 @@
 # Playtech Automation by Muthu
 
-Created Bdd cucumber framework and validated the below Assertions.
-Assertion validate below values--
+1. Created Bdd cucumber framework and validated the below Assertions.
+
 Number of Employees,
 Number of countries Playtech has offices,
 Global licensees
 
-For corssbrowser we can support initialize browser details in Runner class using @beforeclass and which browser we want to run we can give it in runner class
+2.For delete cache we can use below line
+  chromeDriver.manage().deleteAllCookies();
+
+3. For cross browser we can support initialize browser details in Runner class using @beforeclass and which browser we want to run we can give it in runner class
 or we can use desiredcapability for cross browser testing if we plan to use Browserstack or perfecto.
+
 
 @BeforeClass
 public static void before() {   
